@@ -8,7 +8,7 @@ public class StackPostfix {
 		Stack<Integer> s = new Stack<Integer>();
 		Scanner input = new Scanner (expression);
 		while (input.hasNext()) {
-		if (input.hasNext()){
+		if (input.hasNextInt()){
 			s.push(input.nextInt());
 		} else {
 			String operator =  input.next();
